@@ -8,6 +8,7 @@ const HEADER_LINKS = [
   { name: 'Post Card', href: '/postcard' },
   { name: 'Compound Post Card', href: '/compound-postcard' },
   { name: 'Custom Post Card', href: '/custom-postcard' },
+  { name: 'Comments', href: '/comments' },
 ];
 
 export default async function Header() {
