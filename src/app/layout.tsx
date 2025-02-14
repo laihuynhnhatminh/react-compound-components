@@ -3,6 +3,7 @@ import '@/themes/globals.css';
 import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 
+import { APP_DESCRIPTION, APP_NAME } from '@/app-config';
 import Footer from '@/components/footers';
 import Header from '@/components/headers';
 
@@ -17,8 +18,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: 'NextJS Hero Images Showcase',
-  description: 'Application to showcase hero image pages in NextJS',
+  title: APP_NAME,
+  description: APP_DESCRIPTION,
   icons: [
     { rel: 'icon', type: 'image/x-icon', url: '/himemiya-cafe-logo.svg' },
   ],
