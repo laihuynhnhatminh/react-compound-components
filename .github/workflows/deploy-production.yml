@@ -32,7 +32,7 @@ jobs:
           script: |
             export NVM_DIR=~/.nvm
             source ~/.nvm/nvm.sh
-            cd ~/deploy-node-server
+            cd ~/react-compound-components
             git fetch --all
             git reset --hard origin/main
             echo "${{secrets.ENV_PRODUCTION}}" > .env
