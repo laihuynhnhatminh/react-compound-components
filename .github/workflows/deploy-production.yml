@@ -1,6 +1,8 @@
 name: Deploy Production
 
-on: none
+on:
+  workflow_dispatch:
+    branches: [ main ]
 
 jobs:
   build:
